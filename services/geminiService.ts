@@ -4,7 +4,7 @@ import { DrivingRiskData, RISK_LABELS } from "../types";
 
 export const generateSafetyReport = async (data: DrivingRiskData): Promise<string> => {
   // Use a fresh instance for each call to ensure proper API key management
-  const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+  const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_GEMINI_API_KEY });
   
   const riskSummary = Object.entries(data.risks)
     .filter(([_, value]) => value > 0)
