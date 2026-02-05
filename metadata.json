@@ -1,0 +1,5 @@
+{
+  "name": "DriveSafe Pro - 11대 위험운전 교정 리포트",
+  "description": "운전자의 11대 위험 행동 데이터를 분석하여 안전 운전 리포트와 유류비 절감 및 탄소 저감 효과를 분석해주는 대시보드입니다.",
+  "requestFramePermissions": []
+}
